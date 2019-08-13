@@ -1,6 +1,6 @@
 ## Welcome
 
-Welcome to the git repository for the Oxford Big Data Institute's seminar series on Deep Learning !
+Welcome to the git repository for HDRUK Summer School 2019 Course on Deep Learning !
 
 We'll be posting links to required readings for each week and uploading course slides, notes, and supporting code.
 
