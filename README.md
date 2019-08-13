@@ -1,8 +1,8 @@
 ## Welcome
 
-Welcome to the git repository for HDRUK Summer School 2019 Course on Deep Learning !
+Welcome to the git repository for HDRUK Summer School 2019 Course on Applied Deep Learning!
 
-We'll be posting links to required readings for each week and uploading course slides, notes, and supporting code.
+Here you will find course slides, a reading list, and supporting code.
 
 ## Getting Started with Code
 
@@ -14,7 +14,7 @@ We'll be posting links to required readings for each week and uploading course s
 
 - Now activate your environment:
 
-`conda activate bdi_dl`
+`conda activate hdruk_aml`
 
 - Install the necessary packages:
 
