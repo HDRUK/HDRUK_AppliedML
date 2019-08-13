@@ -28,12 +28,12 @@ For an introduction to Keras, please refer to <https://keras.io/getting-started/
 
 The Course is broken in seven sections:
 
-### Morning Session:
+#### Morning Session:
 1. Introduction: Multi-Layer Perceptrons
 2. Training Networks: Implementations with Keras, Optimisation & Regularisation methods
 3. Convolutional Neural Networks
 4. Embeddings and Recurrent NNs
-### Afternoon Session:
+#### Afternoon Session:
 5. Deep Generative Models: VAEs & GANs, and their implementation with Tensorflow
 6. Deep Reinforcement Learning
 7. Frontiers in Deep Learning
@@ -164,7 +164,7 @@ Three papers, more approachable and relevant to current research than those pres
 
 ### Frontiers in Deep Learning
 
-3. **Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics; Kendall et al; 2018**
+1. **Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics; Kendall et al; 2018**
 
   https://arxiv.org/pdf/1705.07115.pdf
 
