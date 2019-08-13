@@ -39,10 +39,9 @@ if __name__ == "__main__":
     # --- Plot sample 45 from the dataset
     sample_index = 45
     plt.figure(figsize=(3, 3))
-    plt.imshow(
-        digits.images[sample_index],
-        cmap=plt.cm.gray_r,
-        interpolation='nearest')
+    plt.imshow(digits.images[sample_index],
+               cmap=plt.cm.gray_r,
+               interpolation='nearest')
     plt.title("image label: %d" % digits.target[sample_index])
     # --- Note close the plot to keep the script running
     plt.show()
@@ -51,8 +50,10 @@ if __name__ == "__main__":
     target = np.asarray(digits.target, dtype='int32')
 
     # --- Split into training and testing data
-    X_train, X_test, y_train, y_test = train_test_split(
-        data, target, test_size=0.15, random_state=37)
+    X_train, X_test, y_train, y_test = train_test_split(data,
+                                                        target,
+                                                        test_size=0.15,
+                                                        random_state=37)
 
     # --- Normalize data
     scaler = preprocessing.StandardScaler()
@@ -61,10 +62,9 @@ if __name__ == "__main__":
 
     # --- Plot sample 45 after transformations
     plt.figure(figsize=(3, 3))
-    plt.imshow(
-        X_train[sample_index].reshape(8, 8),
-        cmap=plt.cm.gray_r,
-        interpolation='nearest')
+    plt.imshow(X_train[sample_index].reshape(8, 8),
+               cmap=plt.cm.gray_r,
+               interpolation='nearest')
     plt.title("transformed sample\n(standardization)")
     # --- Note close the plot to keep the script running
     plt.show()
@@ -90,10 +90,9 @@ if __name__ == "__main__":
     model.add(Activation("softmax"))
 
     # --- Compile and fit the model using SGD
-    model.compile(
-        optimizer=optimizers.SGD(lr=0.1),
-        loss='categorical_crossentropy',
-        metrics=['accuracy'])
+    model.compile(optimizer=optimizers.SGD(lr=0.1),
+                  loss='categorical_crossentropy',
+                  metrics=['accuracy'])
 
     history = model.fit(X_train, Y_train, epochs=15, batch_size=32)
 
