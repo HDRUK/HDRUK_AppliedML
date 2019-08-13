@@ -26,9 +26,25 @@ For an introduction to Keras, please refer to <https://keras.io/getting-started/
 
 ## Reading List
 
+The Course is broken in seven sections:
+
+### Morning Session:
+1. Introduction: Multi-Layer Perceptrons
+2. Training Networks: Implementations with Keras, Optimisation & Regularisation methods
+3. Convolutional Neural Networks
+4. Embeddings and Recurrent NNs
+### Afternoon Session:
+5. Deep Generative Models: VAEs & GANs, and their implementation with Tensorflow
+6. Deep Reinforcement Learning
+7. Frontiers in Deep Learning
+
+and for each section we give a here a few papers that either are fundamental in the developement of that strand of DL, or are recent, cutting edge work.
+
+Reading these before the course is not required, but after the course you may find value in flicking through any for the areas about which you would like to know more.
+
 ### Introduction to Machine Learning
 
-Three papers, first two quite technical that can be skimmed just to get the headline ideas, and then one more approachable paper that is the foundation for deep neural networks. We really just want you to get the take-aways for the first two, and if the last doesn't make much sense, hopefully it will after the first session.
+Three papers, first two quite technical that can be skimmed just to get the headline ideas, and then one more approachable paper that is the foundation for deep neural networks. We really just want you to get the take-aways for the first two, and if the last doesn't make much sense, hopefully it will after the morning session.
 
 1. **Approximation by Superposition of a Sigmoid Function, Cybenko (1989)**
     http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.441.7873&rep=rep1&type=pdf
