@@ -65,7 +65,7 @@ Three papers, first two quite technical that can be skimmed just to get the head
 
 ### Training Neural Networks
 
-Three papers, more approachable and relevant to current research than those presented last week. We recommend you skim through the entirety of each paper.
+Three papers, more approachable and relevant to current research than those listen above. We think you all would benefit from skimming through the entirety of each paper.
 
 1. **Understanding Deep Learning Requires Re-Thinking Generalization, Zhang et al. (2017)**
 
@@ -86,6 +86,8 @@ Three papers, more approachable and relevant to current research than those pres
    > Introduces the Adam Optimizer a good out-of-the-box optimizer which requires very little tuning of  hyper-parameters. It is also computationally efficient, requiring only first-order gradients and little memory (RAM) requirements. Even though the paper was published 4 years ago, it remains the most popular optimizer.
 
 ### Convolutional Neural Networks
+
+Paper 1 is foundational in the history of DL - this paper reignited DL research. Paper 2 is a more recent paper showing real-world uses of modern computer vision. Paper 3 gives an early and still very useful method for trying to interpret what is going on inside a conv net.
 
 1. **ImageNet Classification with Deep Convolutional Neural Networks; Krizhevsk, Sutskever and Hinton; 2012**
 
